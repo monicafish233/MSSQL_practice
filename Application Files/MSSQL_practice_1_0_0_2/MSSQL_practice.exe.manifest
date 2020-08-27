@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MSSQL_practice.exe" version="1.0.0.2" publicKeyToken="2c2f149e0f88d004" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MSSQL_practice" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MSSQL_practice.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 資訊清單選項
+         如需變更 Windows 使用者帳戶控制層級，
+         請以下列其中一個項目取代 requestedExecutionLevel 節點。
+
+       <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+       <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+       <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        如需利用回溯相容性的檔案及登錄模擬，
+        請刪除 requestedExecutionLevel 節點。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MSSQL_practice.exe" size="30680">
+      <assemblyIdentity name="MSSQL_practice" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HGBd8MKXHZJBf5gLSxsg/+6Atyn5RiKCvgmXUzyiJwg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MSSQL_practice.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-O01ROOGJ\fish" issuerKeyHash="618b700ea3e21deb257e8a6c354f8933ab3da4cf" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>QnV10l1UzXTQnOLCHPtcu7T+nv7GuloSIPOW10XKj9E=</DigestValue></Reference></SignedInfo><SignatureValue>G/kItttlMGKqyQQ3lKRA8cWZB9xJC3cHzaXpakkgzL6m1G1oygpRLw/CIPm2HhxjJ4h5ZBoArZanIgLsDgl0kJw2nmLwF+JyF95E7qVyi1ghneguNDYPB9y7WV6r8b/apGVOrgsCXlI0PSFMxuZxM9uOqsibXyMktxx+6WY2DJY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>o/VSXFkiWcS5W2Z6tqb729B1Rkh3HZtTZDAuJzugW2aa3aBtuCHiznmUF3G0Fnp6V4x3CxVzIA/AZB1hX3C/Ph7AvJoK+JdK7/TIXcJKos8LLWC2xkAk9PdjNJzYfX3MfIurtDWCsIr9d9Lko9tuSmP/601Ey+6h+sLj6ylhhek=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d18fca45d796f320125abac6fe9efeb4bb5cfb1cc2e29cd074cd545dd2757542" Description="" Url=""><as:assemblyIdentity name="MSSQL_practice.exe" version="1.0.0.2" publicKeyToken="2c2f149e0f88d004" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-O01ROOGJ\fish</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tfVrQ3XEt6SF5tS09Ai7rRRDvj/oBLO/uNPFDbO315E=</DigestValue></Reference></SignedInfo><SignatureValue>HmfqXtp6SQJH3h5R0cjjv1dOKFQovYhmz3BM5az7qRToNkk0HSvw3j/xiLbFO6r8bsM+WG1LQ0bS4QCcufhoHqMyUP53xdGW0ly45QOKKoWFZjpQ2EBPoDFWDRcDQdVyie2/7laqMLushf3DHAbvpcG/FcSORBX/BvcmQ9/4MsM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>o/VSXFkiWcS5W2Z6tqb729B1Rkh3HZtTZDAuJzugW2aa3aBtuCHiznmUF3G0Fnp6V4x3CxVzIA/AZB1hX3C/Ph7AvJoK+JdK7/TIXcJKos8LLWC2xkAk9PdjNJzYfX3MfIurtDWCsIr9d9Lko9tuSmP/601Ey+6h+sLj6ylhhek=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQJVzo9Z6Ve4ZIQ4SN3mpQyzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigATABBAFAAVABPAFAALQBPADAAMQBSAE8ATwBHAEoAXABmAGkAcwBoMB4XDTIwMDgyNjE5MjUwOVoXDTIxMDgyNzAxMjUwOVowMzExMC8GA1UEAx4oAEwAQQBQAFQATwBQAC0ATwAwADEAUgBPAE8ARwBKAFwAZgBpAHMAaDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAo/VSXFkiWcS5W2Z6tqb729B1Rkh3HZtTZDAuJzugW2aa3aBtuCHiznmUF3G0Fnp6V4x3CxVzIA/AZB1hX3C/Ph7AvJoK+JdK7/TIXcJKos8LLWC2xkAk9PdjNJzYfX3MfIurtDWCsIr9d9Lko9tuSmP/601Ey+6h+sLj6ylhhekCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAINGmcGiPrDlKR1yGPmzBkRs2K3IJpi7dSKLWJrrP8XxXbL+Ic41toycv+PPxuQ5sraYCR1fH8HZckZ3grtsgrohSzuK/Ng+Uby0sk0JNH91UZGiEBL/W1VUxbYqPzACN9983EFgUTeYvbc6zvrAAK42exvXP0m66Hcnm/8jrkqw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
